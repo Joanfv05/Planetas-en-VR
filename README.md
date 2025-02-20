@@ -13,10 +13,10 @@ Para ejecutar y desarrollar este proyecto correctamente, necesitas:
 ## Instalación de Vuforia
 
 1. Descarga el paquete de Vuforia desde su [sitio oficial](https://developer.vuforia.com/downloads/sdk).
-2. Copia el archivo `.tgz` de Vuforia en la carpeta `Packages/` del proyecto.
-3. En Unity, ve a **Window > Package Manager** y selecciona **Add package from tarball...**
-4. Busca y selecciona el archivo `com.ptc.vuforia.engine-11.0.4.tgz`.
-5. Espera a que Unity lo instale y verifica que esté habilitado en **XR Plug-in Management**.
+2. Obtendrás un archivo llamado `add-vuforia-package-11-0-4.unitypackage`.
+3. En Unity, ve a **Assets > Import Package > Custom Package...**.
+4. Selecciona el archivo `add-vuforia-package-11-0-4.unitypackage` y haz clic en **Import**.
+5. Asegúrate de que Vuforia esté habilitado en **XR Plug-in Management**.
 
 ## Uso
 
@@ -36,4 +36,3 @@ Si deseas contribuir al proyecto, por favor abre un issue o envía un pull reque
 ---
 
 **Autor:** Joan Ferre
-
